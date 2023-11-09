@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="18c96f2f-1936-4161-be4a-a1c8971a56f7" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Parcial3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ejercicio3_2/Cadena.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ejercicio3_2/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ejercicio3_6/Computador.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ejercicio3_6/Tienda.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ejercicio3_6/main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ejercicio3_7/Computador.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ejercicio3_7/Main2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ejercicio3_7/Tienda2.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2XwExONozJiHCMbkALsrbqVQYmm" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "ignore.virus.scanning.warn.message": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="18c96f2f-1936-4161-be4a-a1c8971a56f7" name="Changes" comment="" />
+      <created>1699531988075</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1699531988075</updated>
+    </task>
+    <servers />
+  </component>
+</project>
