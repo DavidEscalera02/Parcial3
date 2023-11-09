@@ -1,21 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="18c96f2f-1936-4161-be4a-a1c8971a56f7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Parcial3.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ejercicio3_2/Cadena.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ejercicio3_2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ejercicio3_6/Computador.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ejercicio3_6/Tienda.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ejercicio3_6/main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ejercicio3_7/Computador.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ejercicio3_7/Main2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ejercicio3_7/Tienda2.java" afterDir="false" />
+    <list default="true" id="18c96f2f-1936-4161-be4a-a1c8971a56f7" name="Changes" comment="iniciando....">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ejercicio3_6/Tienda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ejercicio3_6/Tienda.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ejercicio3_6/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ejercicio3_6/main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ejercicio3_7/Tienda2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ejercicio3_7/Tienda2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +47,19 @@
       <option name="presentableId" value="Default" />
       <updated>1699531988075</updated>
     </task>
+    <task id="LOCAL-00001" summary="iniciando....">
+      <option name="closed" value="true" />
+      <created>1699532627427</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1699532627427</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="iniciando...." />
+    <option name="LAST_COMMIT_MESSAGE" value="iniciando...." />
   </component>
 </project>

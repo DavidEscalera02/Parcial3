@@ -48,7 +48,7 @@ public class Tienda2 {
     }
     public void imprimir(){
         for (int i=0;i<computadores.size();i++){
-            System.out.println("computador"+1);
+            System.out.println("computador"+i);
             Computador computador=(Computador)computadores.elementAt(i);
             System.out.println("Marca="+computador.marca);
             System.out.println("Cantida de memoria="+computador.cantidadMemoria);

@@ -8,7 +8,7 @@ public class Tienda {
 
     public static int numeroComputadores;
 
-    public Tienda(String nombre, String propietari, int identificadorTibutario, int tamano) {
+    public Tienda(String nombre, String propietario, int identificadorTibutario, int tamano) {
         if (tamano < 1) {
             System.out.println("Cantidad de computadores insufientes");
         } else {
@@ -16,7 +16,7 @@ public class Tienda {
             this.propietario = propietario;
             this.identificadorTibutario = identificadorTibutario;
             computadores = new Computador[tamano];
-            numeroComputadores =0;
+            numeroComputadores = 0;
         }
     }
 
@@ -53,19 +53,22 @@ public class Tienda {
 
     public int buscar(String marcaComputardor) {
         for (int i = 0; i < numeroComputadores; i++) {
-            if (computadores[i].marca.equals(marcaComputardor)) ;
-            return i;
+            if (computadores[i].marca.equals(marcaComputardor))
+                return i;
         }
-        return -1;
+        return 1;
     }
-    public void imprimir(){
-        for (int i=1;i<numeroComputadores;i++){
-            System.out.println("computador"+1);
-            System.out.println("Marca="+computadores[i].marca);
-            System.out.println("Cantida de memoria="+computadores[i].cantidadMemoria);
-            System.out.println("Caracteristicas del procesador="+computadores[i].caracteristicasProcesador);
-            System.out.println("Sistema operativo="+computadores[i].sistemaOperativo);
-            System.out.println("Precio="+computadores[i].precio);
+
+
+    public void imprimir() {
+        for (int i = 0; i < numeroComputadores; i++) {
+            System.out.println("computador" + i);
+            System.out.println("Marca=" + computadores[i].marca);
+            System.out.println("Cantida de memoria=" + computadores[i].cantidadMemoria);
+            System.out.println("Caracteristicas del procesador=" + computadores[i].caracteristicasProcesador);
+            System.out.println("Sistema operativo=" + computadores[i].sistemaOperativo);
+            System.out.println("Precio=" + computadores[i].precio);
         }
     }
 }
+

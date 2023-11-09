@@ -13,7 +13,9 @@ public class main {
         tienda.anadir(comp3);
         Scanner sc = new Scanner(System.in);
         String marca = sc.next();
-        System.out.println("El computador a buscar: “ + marca + “ se encuentra en la posición"+ tienda.buscar(marca));
+        System.out.println("El computador a buscar: "+ marca + " se encuentra en la posición: "+ tienda.buscar(marca));
         tienda.imprimir();
+        System.out.println("---------------------");
+
     }
 }
