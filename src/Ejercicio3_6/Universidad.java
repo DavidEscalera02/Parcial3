@@ -3,10 +3,10 @@ package Ejercicio3_6;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-/*public class Universidad {
-    private String codigo;
-    private String nombre;
-    private ArrayList<Estudiante> estudiantes;
+/*public class Universidad extends Estudiante {
+     String codigo;
+    String nombre;
+    ArrayList<Estudiante> estudiantes;
 
     public void agregarEstudiante() {
         Scanner scanner = new Scanner(System.in);
@@ -33,7 +33,7 @@ import java.util.Scanner;
 
     public boolean existeEstudiante(String codigoEstudiante) {
         for (Estudiante estudiante : estudiantes) {
-            //*if (estudiante.getCodigo().equals(codigoEstudiante)) {
+            if (estudiante.getCodigo().equals(codigoEstudiante)) {
                 return true;
             }
         }
@@ -113,6 +113,6 @@ import java.util.Scanner;
     }
 
 }
-
-
 */
+
+

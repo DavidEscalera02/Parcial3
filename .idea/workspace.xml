@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3bd7e2ee-1321-412b-9d3e-23de8995f791" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/Ejercicio4_4/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ejercicio4_4/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ejercicio4_4/ProfesorTitular.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ejercicio4_4/ProfesorTitular.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ejercicio3_6/Universidad.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ejercicio3_6/Universidad.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ejercicio4_1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ejercicio4_1/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ejercicio4_1/Novela.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ejercicio4_1/Novela.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +37,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Ejercicio4_4.Main">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Ejercicio4_4.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Ejercicio4_4.Main" />
       <module name="Parcial3" />
@@ -77,8 +79,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Ejercicio4_4.Main" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Ejercicio4_4.Main" />
         <item itemvalue="Application.main" />
       </list>
     </recent_temporary>

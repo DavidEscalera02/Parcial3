@@ -35,9 +35,9 @@ public class Libro {
         Precio = precio;
     }
     public void leer(){
-        System.out.println("Titulo: "+getTitulo());
-        System.out.println("Autor: "+getAutor());
-        System.out.println("Precio:"+getPrecio());
+        System.out.println("Titulo: "+Titulo);
+        System.out.println("Autor: "+Autor);
+        System.out.println("Precio:$"+Precio);
     }
 
 

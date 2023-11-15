@@ -25,5 +25,8 @@ public class Main {
         System.out.println("---------------------------");
         ExtenderLibro texto1=new ExtenderLibro("Rosita","Julian Alanis",500,"Primaria");
         texto1.leer();
+        System.out.println("----------------------------------");
+        Novela novela = new Novela("La Rosa de Guadalupe","Carlos Eduardo Mercado Orduña",500,Novela.tipo.ROMANTICA);
+        novela.leer();
     }
 }
