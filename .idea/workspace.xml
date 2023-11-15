@@ -2,23 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3bd7e2ee-1321-412b-9d3e-23de8995f791" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ejercicio4_1/Cuenta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ejercicio4_1/CuentaAhorros.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ejercicio4_1/CuentaCorriente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ejercicio4_1/ExtenderLibro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ejercicio4_1/Libro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ejercicio4_1/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ejercicio4_1/Novela.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ejercicio4_4/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ejercicio4_4/Profesor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ejercicio4_4/ProfesorTitular.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ejercicio3_6/Estudiante.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ejercicio3_6/Estudiante.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ejercicio3_6/Universidad.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ejercicio3_6/Universidad.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ejercicio3_6/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ejercicio3_6/main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ejercicio4_4/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ejercicio4_4/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ejercicio4_4/ProfesorTitular.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ejercicio4_4/ProfesorTitular.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,12 +29,12 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.Ejercicio4_4.Main">
     <configuration name="Ejercicio4_4.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Ejercicio4_4.Main" />
