@@ -3,81 +3,116 @@ package Ejercicio3_6;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class Universidad {
-    ArrayList<Estudiante>estudiantes;
-    public Universidad(){
-        estudiantes=new ArrayList<>();
-    }
-    public void Anadir(Estudiante estudiante){
-        for (Estudiante e: estudiantes){
-            if (e.codigo == estudiante.codigo){
-                System.out.println("El codigo ya existe. ");
-                return;
-            }
+/*public class Universidad {
+    private String codigo;
+    private String nombre;
+    private ArrayList<Estudiante> estudiantes;
+
+    public void agregarEstudiante() {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("Ingrese el código del estudiante: ");
+        String codigoEstudiante = scanner.nextLine();
+
+        if (existeEstudiante(codigoEstudiante)) {
+            System.out.println("El código del estudiante ya existe.");
+            return;
         }
+
+        System.out.println("Ingrese el nombre del estudiante: ");
+        String nombreEstudiante = scanner.nextLine();
+
+        System.out.println("Ingrese la nota del estudiante: ");
+        double nota = scanner.nextDouble();
+
+        Estudiante estudiante = new Estudiante(codigoEstudiante, nombreEstudiante, nota);
         estudiantes.add(estudiante);
-        System.out.println("Estudiante correctamento añadido");
-    }
-    public void buscar(int codigo){
-        for (Estudiante e: estudiantes){
-            if (e.codigo == codigo){
-                System.out.println("Estudiante encontrado");
-                System.out.println("Nombre="+e.nombre+" "+e.apellido);
-                System.out.println("Codigo="+e.codigo);
-                System.out.println("Semestre="+e.numeroSemestre);
-                System.out.println("Nota final="+e.notaFinal);
-                return;
 
+        System.out.println("El estudiante ha sido agregado correctamente.");
+    }
+
+    public boolean existeEstudiante(String codigoEstudiante) {
+        for (Estudiante estudiante : estudiantes) {
+            //*if (estudiante.getCodigo().equals(codigoEstudiante)) {
+                return true;
             }
         }
-        System.out.println("Estudiante no encontrado");
+        return false;
     }
-    public void eliminar(int codigo){
-        for(Estudiante e : estudiantes) {
-            if (e.codigo == codigo) {
-                System.out.println("Nombre=" + e.nombre + " " + e.apellido);
-                System.out.println("Codigo=" + e.codigo);
-                System.out.println("Semestre=" + e.numeroSemestre);
-                System.out.println("Nota final=" + e.notaFinal);
-                Scanner sc = new Scanner(System.in);
-                String res = sc.next();
-                System.out.println("Ingresar el codigo del Estudiante");
-                if (res.equalsIgnoreCase("s")) {
-                    estudiantes.remove(e);
-                    System.out.println("Eliminando al Estudiante.....");
-                } else {
-                    System.out.println("Estudiante no eliminando");
-                }
-                return;
+
+    public void buscarEstudiante() {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("Ingrese el código del estudiante a buscar: ");
+        String codigoEstudiante = scanner.nextLine();
+
+        Estudiante estudiante = buscarEstudiante(codigoEstudiante);
+
+        if (estudiante == null) {
+            System.out.println("El estudiante no existe.");
+            return;
+        }
+
+        System.out.println("Datos del estudiante:");
+        System.out.println("Código: " + estudiante.getCodigo());
+        System.out.println("Nombre: " + estudiante.getNombre());
+        System.out.println("Nota: " + estudiante.getnota());
+    }
+
+    public Estudiante buscarEstudiante(String codigoEstudiante) {
+        for (Estudiante estudiante : estudiantes) {
+            if (estudiante.getCodigo().equals(codigoEstudiante)){
+                return estudiante;
             }
         }
+        return null;
     }
-    public void CalcularPromedio(){
-        float sumNota=0;
-        for (Estudiante e : estudiantes) {
-            sumNota+=e.notaFinal;
 
+    public void eliminarEstudiante() {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("Ingrese el código del estudiante a eliminar: ");
+        String codigoEstudiante = scanner.nextLine();
+
+        Estudiante estudiante = buscarEstudiante(codigoEstudiante);
+
+        if (estudiante == null) {
+            System.out.println("El estudiante no existe.");
+            return;
         }
-        return estudiantes.size() > 0 ? sumNota /estudiantes.size():0 ;
+
+        System.out.println("¿Está seguro de eliminar al estudiante? (S/N)");
+        String respuesta = scanner.nextLine();
+
+        if (respuesta.equals("S")) {
+            estudiantes.remove(estudiante);
+            System.out.println("El estudiante ha sido eliminado correctamente.");
+        }
     }
-    public int contarEstudianteAprobados (){
-        int contar =0;
-        for (Estudiante e: estudiantes){
-            if (e.notaFinal <= 3.0){
-                contar++;
+
+    public double calcularPromedio() {
+        double sumaNotas = 0;
+        for (Estudiante estudiante : estudiantes) {
+            sumaNotas += estudiante.getnota();
+        }
+        return sumaNotas / estudiantes.size();
+    }
+
+    public int obtenerCantidadAprobados() {
+        int cantidadAprobados = 0;
+        for (Estudiante estudiante : estudiantes) {
+            if (estudiante.getnota() >= 3.0) {
+                cantidadAprobados++;
             }
         }
-        return contar;
-
+        return cantidadAprobados;
     }
-    public int contaraPorcentajeAprobados(){
-        int TotalEstudiante=estudiantes.size();
-        if (TotalEstudiante > 0) {
-            int aprobados=contarEstudianteAprobados();
-            return (double)aprobados / TotalEstudiante * 100;
-        }else {
-            return 0;
-        }
 
+    public double obtenerPorcentajeAprobados() {
+        return (double) obtenerCantidadAprobados() / estudiantes.size() * 100;
     }
+
 }
+
+
+*/
