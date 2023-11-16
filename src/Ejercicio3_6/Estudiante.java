@@ -1,21 +1,18 @@
 package Ejercicio3_6;
 
 public class Estudiante {
-    String nombre;
-    String apellido;
-    int codigo;
-    int numeroSemestre;
-    double nota;
+    private String nombre;
+    private String apellidos;
+    private String codigo;
+    private int semestre;
+    private double nota;
 
-    public Estudiante(String nombre, String apellido, int codigo, int numeroSemestre, float nota) {
+    public Estudiante(String nombre, String apellidos, String codigo, int semestre, double nota) {
         this.nombre = nombre;
-        this.apellido = apellido;
+        this.apellidos = apellidos;
         this.codigo = codigo;
-        this.numeroSemestre = numeroSemestre;
+        this.semestre = semestre;
         this.nota = nota;
-    }
-
-    public Estudiante(String codigoEstudiante, String nombreEstudiante, double nota) {
     }
 
     public String getNombre() {
@@ -26,35 +23,36 @@ public class Estudiante {
         this.nombre = nombre;
     }
 
-    public String getApellido() {
-        return apellido;
+    public String getApellidos() {
+        return apellidos;
     }
 
-    public void setApellido(String apellido) {
-        this.apellido = apellido;
+    public void setApellidos(String apellidos) {
+        this.apellidos = apellidos;
     }
 
-    public int getCodigo() {
+    public String getCodigo() {
         return codigo;
     }
 
-    public void setCodigo(int codigo) {
+    public void setCodigo(String codigo) {
         this.codigo = codigo;
     }
 
-    public int getNumeroSemestre() {
-        return numeroSemestre;
+    public int getSemestre() {
+        return semestre;
     }
 
-    public void setNumeroSemestre(int numeroSemestre) {
-        this.numeroSemestre = numeroSemestre;
+    public void setSemestre(int semestre) {
+        this.semestre = semestre;
     }
 
-    public double getnota() {
+    public double getNota() {
         return nota;
     }
 
-    public void setNotaFinal(double nota) {
+    public void setNota(double nota) {
         this.nota = nota;
     }
+
 }

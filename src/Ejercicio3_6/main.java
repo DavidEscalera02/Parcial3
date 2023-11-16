@@ -16,7 +16,16 @@ public class main {
         System.out.println("El computador a buscar: "+ marca + " se encuentra en la posición: "+ tienda.buscar(marca));
         tienda.imprimir();
         System.out.println("---------------------");
+        Curso curso = new Curso();
+
+        curso.anadirEstudiante(new Estudiante("Juan", "Pérez", "123456789", 5, 18.0));
+        curso.anadirEstudiante(new Estudiante("Ana", "García", "987654321", 4, 16.5));
+        curso.anadirEstudiante(new Estudiante("Pedro", "López", "321456789", 3, 14.0));
+
+        System.out.println("Promedio del curso: " + curso.calcularPromedio());
+        System.out.println("Cantidad de estudiantes aprobados: " + curso.obtenerCantidadAprobados());
+    }
 
 
     }
-}
+
