@@ -12,13 +12,13 @@ public class Curso {
 
     public void anadirEstudiante(Estudiante estudiante) {
         for (Estudiante e : estudiantes) {
-            if (e.codigo == Estudiante.codigo) {
+            if (e.codigo == e.codigo) {
                 System.out.println("Error codigo ya existe");
                 return;
             }
         }
         estudiantes.add(estudiante);
-        System.out.println("EStudiante añadido");
+        System.out.println("Estudiante añadido correctamente"+estudiante);
     }
 
     public void buscarEstudiante(int codigo) {
@@ -38,7 +38,7 @@ public class Curso {
 
     public void eliminarEstudiante(int codigo) {
         for (Estudiante e : estudiantes) {
-            if (e.codigo == Estudiante.codigo) {
+            if (e.codigo == e.codigo) {
                 System.out.println("Nombre: " + e.nombre);
                 System.out.println("Apellidos: " + e.apellidos);
                 System.out.println("Código: " + e.codigo);
@@ -63,7 +63,7 @@ public class Curso {
     public double calcularPromedio() {
         double sumaNotas = 0;
         for (Estudiante e : estudiantes) {
-            sumaNotas += e.nota();
+            sumaNotas += e.nota;
 
         }
 
@@ -73,7 +73,7 @@ public class Curso {
     public int obtenerCantidadAprobados() {
         int cantidadAprobados = 0;
         for (Estudiante e : estudiantes) {
-            if (e.nota() >= 3.0) {
+            if (e.nota >= 3.0) {
                 cantidadAprobados++;
             }
         }

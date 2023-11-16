@@ -14,5 +14,4 @@ public class Estudiante {
         this.semestre = semestre;
         this.nota = nota;
     }
-
 }
