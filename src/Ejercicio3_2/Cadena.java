@@ -27,10 +27,10 @@ public class Cadena {
     }
 
     String invertirString(String I) {
-        String reversedStr = "";
+        String rever = "";
         for (int i = I.length() - 1; i >= 0; i--) {
-            reversedStr += I.charAt(i);
+            rever += I.charAt(i);
         }
-        return reversedStr;
+        return rever;
     }
 }
