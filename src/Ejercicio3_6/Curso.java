@@ -1,90 +1,93 @@
 package Ejercicio3_6;
 
-public class Curso  {
-    private List<Estudiante> estudiantes;
+import java.util.ArrayList;
+import java.util.Scanner;
 
-    public Curso() {
-        this.estudiantes = new ArrayList();
+public class Curso {
+    ArrayList<Estudiante> estudiantes;
+
+    public void consultaCurso() {
+        estudiantes = new ArrayList<>();
     }
 
-    public void anadirEstudiante() {
-        System.out.println("Ingrese el nombre del estudiante:");
-        String nombre = System.console().readLine();
-
-        System.out.println("Ingrese los apellidos del estudiante:");
-        String apellidos = System.console().readLine();
-
-        System.out.println("Ingrese el código del estudiante:");
-        String codigo = System.console().readLine();
-
-        System.out.println("Ingrese el semestre del estudiante:");
-        int semestre = Integer.parseInt(System.console().readLine());
-
-        System.out.println("Ingrese la nota del estudiante:");
-        double nota = Double.parseDouble(System.console().readLine());
-
-
-        Set<String> codigosExistentes = new HashSet<>();
+    public void anadirEstudiante(Estudiante estudiante) {
         for (Estudiante e : estudiantes) {
-            codigosExistentes.add(e.getCodigo());
+            if (e.codigo == Estudiante.codigo) {
+                System.out.println("Error codigo ya existe");
+                return;
+            }
         }
-
-        if (codigosExistentes.contains(codigo)) {
-            System.out.println("El código del estudiante " + codigo + " ya existe");
-            return;
-        }
-
-        Estudiante estudiante = new Estudiante(nombre, apellidos, codigo, semestre, nota);
         estudiantes.add(estudiante);
+        System.out.println("EStudiante añadido");
     }
-    public Estudiante buscarEstudiante(String código) {
+
+    public void buscarEstudiante(int codigo) {
         for (Estudiante e : estudiantes) {
-            if (e.getCodigo().equals(código)) {
-                return e;
+            if (e.codigo == codigo) {
+                System.out.println("Nombre: " + e.nombre);
+                System.out.println("Apellidos: " + e.apellidos);
+                System.out.println("Código: " + e.codigo);
+                System.out.println("Semestre: " + e.semestre);
+                System.out.println("Nota: " + e.nota);
+                return;
             }
         }
-
-        return null;
+        System.out.println("Estudiante no encontrado");
     }
 
-    public void eliminarEstudiante(String codigo) {
-        for (int i = 0; i < estudiantes.size(); i++) {
-            Estudiante e = estudiantes.get(i);
-            if (e.getCodigo().equals(codigo)) {
-                System.out.println("Nombre: " + e.getNombre());
-                System.out.println("Apellidos: " + e.getApellidos());
-                System.out.println("Código: " + e.getCodigo());
-                System.out.println("Semestre: " + e.getSemestre());
-                System.out.println("Nota: " + e.getNota());
 
+    public void eliminarEstudiante(int codigo) {
+        for (Estudiante e : estudiantes) {
+            if (e.codigo == Estudiante.codigo) {
+                System.out.println("Nombre: " + e.nombre);
+                System.out.println("Apellidos: " + e.apellidos);
+                System.out.println("Código: " + e.codigo);
+                System.out.println("Semestre: " + e.semestre);
+                System.out.println("Nota: " + e.nota);
                 System.out.println("¿Desea eliminar al estudiante? (S/N)");
-                String respuesta = System.console().readLine();
-                if (respuesta.equals("S")) {
-                    estudiantes.remove(i);
-                    return;
+                Scanner sc = new Scanner(System.in);
+                String res = sc.next();
+                if (res.equalsIgnoreCase("S")) {
+                    estudiantes.remove(e);
+                    System.out.println("Estudiante eliminado");
+                } else {
+                    System.out.println("Estudiante no eliminado");
                 }
+                return;
+
             }
         }
+        System.out.println("Estudiante no encontrado");
     }
 
     public double calcularPromedio() {
         double sumaNotas = 0;
         for (Estudiante e : estudiantes) {
-            sumaNotas += e.getNota();
+            sumaNotas += e.nota();
+
         }
 
-        return sumaNotas / estudiantes.size();
+        return estudiantes.size() > 0 ? sumaNotas / estudiantes.size() : 0;
     }
 
     public int obtenerCantidadAprobados() {
         int cantidadAprobados = 0;
         for (Estudiante e : estudiantes) {
-            if (e.getNota() >= 3.0) {
+            if (e.nota() >= 3.0) {
                 cantidadAprobados++;
             }
         }
 
         return cantidadAprobados;
+    }
+    public double porcentajesAprobados(){
+        int totalEstudiante= estudiantes.size();
+        if (totalEstudiante<0){
+            int aprobados=obtenerCantidadAprobados();
+            return (double) aprobados/totalEstudiante*100;
+        }else {
+            return 0;
+        }
     }
 
 }
